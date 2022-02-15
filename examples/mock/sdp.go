@@ -12,7 +12,6 @@ var (
 	Answer *sdp.Session
 )
 
-/*
 func init() {
 	Offer = &sdp.Session{
 		Origin: &sdp.Origin{
@@ -45,7 +44,7 @@ func init() {
 	}
 	Answer = Offer
 }
-*/
+
 func BuildLocalSdp2(host string, port int) string {
 	sdp := &sdp.Session{
 		Origin: &sdp.Origin{
