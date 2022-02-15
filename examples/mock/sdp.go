@@ -45,7 +45,7 @@ func init() {
 	Answer = Offer
 }
 
-func BuildLocalSdp(host string, port int) string {
+func BuildLocalSdp1(host string, port int) string {
 	sdp := &sdp.Session{
 		Origin: &sdp.Origin{
 			Username:       "-",
